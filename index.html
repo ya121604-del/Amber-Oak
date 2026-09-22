@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amber &amp; Oak Roasters — Small-Batch Coffee House</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark">
+        <svg viewBox="0 0 48 48" width="34" height="34" aria-hidden="true">
+          <path d="M10 18h24v10c0 7-5.5 12-12 12S10 35 10 28V18z" fill="none" stroke="currentColor" stroke-width="2.2"/>
+          <path d="M34 20h4a5 5 0 0 1 0 10h-3" fill="none" stroke="currentColor" stroke-width="2.2"/>
+          <path d="M16 13c0-2 2-2 2-4s-2-2-2-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <path d="M23 13c0-2 2-2 2-4s-2-2-2-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </span>
+      <span class="brand-text">Amber&nbsp;&amp;&nbsp;Oak</span>
+    </a>
+
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </label>
+
+    <nav class="site-nav">
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#why">Why Us</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="nav-cta">Visit Us</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <p class="hero-kicker">Roasted in small batches, poured with care</p>
+      <h1>Coffee, the way<br>the morning<br>intended.</h1>
+      <p class="hero-sub">Tucked on the corner of 5th &amp; Elm, Amber &amp; Oak has been coaxing flavor out of single-origin beans since 2014 — one careful pour at a time.</p>
+      <div class="hero-actions">
+        <a href="#menu" class="btn btn-primary">See the Menu</a>
+        <a href="#contact" class="btn btn-ghost">Find Us</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1000&q=80" alt="Latte art in a ceramic cup, viewed from above">
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <div class="about-image">
+      <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=900&q=80" alt="Warm, wood-paneled interior of the coffee shop">
+    </div>
+    <div class="about-text">
+      <h2>A neighborhood roastery,<br>built by hand</h2>
+      <p>Amber &amp; Oak started as a single drum roaster in a garage and a stubborn belief that coffee should taste like where it came from. Today, we still roast every batch on-site, in small quantities, and taste-test each one before it reaches your cup.</p>
+      <p>Our beans travel from farms in Ethiopia, Colombia and Sumatra, chosen for character over convenience. No shortcuts, no syrups pretending to be flavor — just coffee, milk, and time.</p>
+      <ul class="about-stats">
+        <li><strong>2014</strong><span>Year we opened</span></li>
+        <li><strong>12</strong><span>Origins sourced</span></li>
+        <li><strong>7</strong><span>Days roasting weekly</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section id="menu" class="menu">
+    <div class="section-heading">
+      <h2>The Menu</h2>
+      <p>Espresso classics, slow pours, and a few things worth ordering twice.</p>
+    </div>
+
+    <div class="menu-columns">
+      <div class="menu-column">
+        <h3>Espresso &amp; Milk</h3>
+        <ul class="menu-list">
+          <li><span class="item-name">Espresso</span><span class="leader"></span><span class="item-price">$3.25</span></li>
+          <li><span class="item-name">Cortado</span><span class="leader"></span><span class="item-price">$4.00</span></li>
+          <li><span class="item-name">Cappuccino</span><span class="leader"></span><span class="item-price">$4.50</span></li>
+          <li><span class="item-name">Flat White</span><span class="leader"></span><span class="item-price">$4.75</span></li>
+          <li><span class="item-name">Caffè Latte</span><span class="leader"></span><span class="item-price">$4.75</span></li>
+          <li><span class="item-name">Oat Milk Mocha</span><span class="leader"></span><span class="item-price">$5.25</span></li>
+        </ul>
+      </div>
+
+      <div class="menu-column">
+        <h3>Slow &amp; Cold Brew</h3>
+        <ul class="menu-list">
+          <li><span class="item-name">Pour Over</span><span class="leader"></span><span class="item-price">$4.50</span></li>
+          <li><span class="item-name">Chemex, 2 cups</span><span class="leader"></span><span class="item-price">$8.00</span></li>
+          <li><span class="item-name">Cold Brew</span><span class="leader"></span><span class="item-price">$4.25</span></li>
+          <li><span class="item-name">Nitro Cold Brew</span><span class="leader"></span><span class="item-price">$5.00</span></li>
+          <li><span class="item-name">Iced Latte</span><span class="leader"></span><span class="item-price">$5.00</span></li>
+          <li><span class="item-name">Affogato</span><span class="leader"></span><span class="item-price">$6.00</span></li>
+        </ul>
+      </div>
+
+      <div class="menu-column">
+        <h3>From the Case</h3>
+        <ul class="menu-list">
+          <li><span class="item-name">Butter Croissant</span><span class="leader"></span><span class="item-price">$3.75</span></li>
+          <li><span class="item-name">Cardamom Bun</span><span class="leader"></span><span class="item-price">$4.25</span></li>
+          <li><span class="item-name">Banana Oat Loaf</span><span class="leader"></span><span class="item-price">$4.00</span></li>
+          <li><span class="item-name">Almond Biscotti</span><span class="leader"></span><span class="item-price">$2.75</span></li>
+          <li><span class="item-name">House Granola Bowl</span><span class="leader"></span><span class="item-price">$6.50</span></li>
+          <li><span class="item-name">Bagel &amp; Herb Cheese</span><span class="leader"></span><span class="item-price">$5.50</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section id="why" class="why">
+    <div class="section-heading section-heading-light">
+      <h2>Why people come back</h2>
+      <p>It's rarely just the coffee — it's everything around it.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-item">
+        <svg viewBox="0 0 48 48" width="30" height="30" aria-hidden="true"><path d="M24 6c8 6 14 14 14 22a14 14 0 0 1-28 0c0-8 6-16 14-22z" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        <h3>Single-origin beans</h3>
+        <p>Sourced directly from growers we've visited, roasted within days of arrival for peak flavor.</p>
+      </div>
+      <div class="why-item">
+        <svg viewBox="0 0 48 48" width="30" height="30" aria-hidden="true"><circle cx="24" cy="24" r="15" fill="none" stroke="currentColor" stroke-width="2"/><path d="M24 15v9l6 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <h3>Roasted this week</h3>
+        <p>We never stockpile. What's in the grinder was roasted in the last seven days, guaranteed.</p>
+      </div>
+      <div class="why-item">
+        <svg viewBox="0 0 48 48" width="30" height="30" aria-hidden="true"><path d="M8 38V22l16-12 16 12v16H8z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M19 38V27h10v11" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        <h3>A room worth staying in</h3>
+        <p>Warm light, quiet corners, and seating that doesn't rush you out after one cup.</p>
+      </div>
+      <div class="why-item">
+        <svg viewBox="0 0 48 48" width="30" height="30" aria-hidden="true"><path d="M12 24c0-8 5-14 12-14s12 6 12 14-5 16-12 16-12-8-12-16z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M24 18v6l4 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <h3>Baristas who taste everything</h3>
+        <p>Every barista cups our coffee weekly, so they can actually describe what's in your cup.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="gallery">
+    <div class="section-heading">
+      <h2>Around the Shop</h2>
+      <p>A few honest moments from the bar.</p>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item gallery-tall">
+        <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80" alt="Hands warming around a cup of coffee">
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=800&q=80" alt="Freshly roasted coffee beans">
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=800&q=80" alt="Heart-shaped latte art">
+      </div>
+      <div class="gallery-item gallery-wide">
+        <img src="https://images.unsplash.com/photo-1453614512568-c4024d13c247?auto=format&fit=crop&w=1000&q=80" alt="Barista pouring milk into an espresso cup">
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1495521821757-a1efb6729352?auto=format&fit=crop&w=800&q=80" alt="Pastries displayed in the glass case">
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80" alt="Cup of coffee resting on a wooden table">
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="contact-inner">
+      <div class="contact-info">
+        <h2>Come say hello</h2>
+        <p class="contact-lead">We're a short walk from the park, right where 5th meets Elm.</p>
+
+        <dl class="contact-list">
+          <div>
+            <dt>Address</dt>
+            <dd>214 Elm Street, Riverside District</dd>
+          </div>
+          <div>
+            <dt>Phone</dt>
+            <dd>(555) 019-4287</dd>
+          </div>
+          <div>
+            <dt>Email</dt>
+            <dd>hello@amberandoak.coffee</dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="contact-hours">
+        <h3>Hours</h3>
+        <table class="hours-table">
+          <tbody>
+            <tr><th>Monday – Friday</th><td>6:30 AM – 6:00 PM</td></tr>
+            <tr><th>Saturday</th><td>7:00 AM – 6:00 PM</td></tr>
+            <tr><th>Sunday</th><td>8:00 AM – 3:00 PM</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="brand-text footer-brand-text">Amber&nbsp;&amp;&nbsp;Oak</span>
+      <p>Small-batch coffee, roasted on Elm Street since 2014.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#why">Why Us</a>
+      <a href="#gallery">Gallery</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Visit</h4>
+      <a href="#contact">Directions</a>
+      <a href="#contact">Hours</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Follow</h4>
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 Amber &amp; Oak Roasters. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
